@@ -1,25 +1,25 @@
 class Lvox < Formula
   desc "Leanvox CLI — lean voice API from your terminal"
   homepage "https://leanvox.com"
-  version "0.5.0"
+  version "0.5.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/leanvox/lvox/releases/download/v0.5.0/lvox-aarch64-apple-darwin.tar.xz"
-      sha256 "9fa6679c8ea7274b0b219a8c330d5c3643f86e3bc4c6993bbbdfb195f03b5f5f"
+      url "https://github.com/leanvox/lvox/releases/download/v0.5.1/lvox-aarch64-apple-darwin.tar.xz"
+      sha256 "a25a68c2292be29b68dab27aa7484356f70fe38b0dc18ad01164b27d56a763da"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/leanvox/lvox/releases/download/v0.5.0/lvox-x86_64-apple-darwin.tar.xz"
-      sha256 "4cb76fd56f34bcae3a92191f18090d4badb0aabc2e407ddfec8568ca71c4c285"
+      url "https://github.com/leanvox/lvox/releases/download/v0.5.1/lvox-x86_64-apple-darwin.tar.xz"
+      sha256 "800e4cc7482b263926e038cbe49596f08e18d13b3c33cc36110a833eaec6ff8f"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/leanvox/lvox/releases/download/v0.5.0/lvox-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "48ab2790690b680b1ac7b1fb8d193db8905d3525c63f6346e6846f7b8a986345"
+      url "https://github.com/leanvox/lvox/releases/download/v0.5.1/lvox-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "083eb21156e01247b100b7f81a984181dde1f79f2b7eecdc8abcb8d8794090e0"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/leanvox/lvox/releases/download/v0.5.0/lvox-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "3a3504490b63a2e311d70e8b6a3d163d58d422321c1adc7d3911e6a2b5b4ac04"
+      url "https://github.com/leanvox/lvox/releases/download/v0.5.1/lvox-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "757b499b020f664ad5209cd6968dd1cd5b06456d57999ef7df5039bc5bceffbd"
     end
   end
   license "MIT"
